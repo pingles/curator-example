@@ -8,6 +8,7 @@
                  [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
                  [org.clojure/tools.logging "0.2.6"]
                  [curator "0.0.2"]]
+  :main curator.example.main
   :profiles {:dev {:dependencies [[org.slf4j/log4j-over-slf4j "1.6.4"]
                                   [org.slf4j/slf4j-simple "1.6.4"]
                                   [org.clojure/tools.namespace "0.2.4"]]
